@@ -1,0 +1,16 @@
+body {
+    background-color: #121212;
+    color: #FFF;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-row img {
+    height: 300px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    object-fit: cover;
+}
